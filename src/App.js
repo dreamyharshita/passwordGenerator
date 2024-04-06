@@ -42,9 +42,9 @@ setfinal(fin);
   return (
 
    <div className='app'>
-   <h2>HELLO</h2>
+   <h2>HELLO guys</h2>
     <div className='passwordBox'>
-      
+
       <h2>Password Generator</h2>
       <div className='passwordBoxin'>
       <input type='text ' value={finalpassword} readOnly></input> <button onClick={copy}>Copy</button>
