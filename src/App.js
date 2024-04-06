@@ -9,6 +9,7 @@ function App() {
  let [symbol,setSymbol]=useState(false);
  let[passwordlen,setPasswordlen]=useState(10);
  let[finalpassword,setfinal]=useState('');
+ 
 
  const copy =(e)=>{
   e.preventDefault();
